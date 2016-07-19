@@ -28,5 +28,3 @@ rm -vr $HOME/.config/xfce4/panel/xfce4-notes-plugin*
 
 #find $(xdg-user-dir MUSIC) -type f -not \( -name '*.mp3' -or -name '*.flac' -or -name '*.MP3' \) #-delete
 #find $(xdg-user-dir MUSIC) -depth -empty #-delete
-
-#sudo find /usr/lib/modules/* -maxdepth 0 -type d ! \( -name "$(uname -r)" -or -name "extramodules*" \) #-exec rm -rv {} \;

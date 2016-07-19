@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DATE=$(date +"%m-%d-%Y")
+DATE=$(date +"%d-%m-%Y")
 DIR=/home/backup
 
 tar -cjvf $DIR/etc-backup-$DATE.tar.bz2 /etc
@@ -21,3 +21,5 @@ tar -cjvf $DIR/$USER-backup-$DATE.tar.bz2 \
 			--exclude='.thumbnails' \
 			--exclude='unity3d' \
 			$HOME/.[^.]*
+
+pacman -Qe | awk '{print $1}' | sed ':a;N;$!ba;s/\n/ /g' > $DIR/package_list.txt
