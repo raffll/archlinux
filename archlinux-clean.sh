@@ -15,12 +15,13 @@ sudo rm -vr /var/cache/pacman/pkg/*.xz.part
 
 rm -vr $HOME/.local/share/applications/wine-extension*
 rm -vr $HOME/.local/share/applications/wine
-rm -vr $HOME/.local/share/desktop-directories/
-rm -vr $HOME/.local/share/icons
-rm -vr $HOME/.config/menus/applications-merged
+rm -vr $HOME/.local/share/desktop-directories/wine*
+rm -vr $HOME/.config/menus/applications-merged/wine*
 
 rm -vr $HOME/.config/xfce4/xfce4-notes.gtkrc*
 rm -vr $HOME/.config/xfce4/panel/xfce4-notes-plugin*
+
+#find $HOME -name '.directory' -delete
 
 #find $(xdg-user-dir MUSIC) -type f -not \( -name '*.mp3' -or -name '*.flac' -or -name '*.MP3' \) #-delete
 #find $(xdg-user-dir MUSIC) -depth -empty #-delete
