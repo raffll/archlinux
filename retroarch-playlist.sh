@@ -9,7 +9,7 @@ DIR_A800="$EMU/Atari 8bit Preserved Software 2017-08-01"
 DIR_DOS="$CUR"
 DIR_MAME="$EMU/MAME 0.191 ROMs (merged)"
 
-MAME_DAT="$CUR/ARCADE 191.dat"
+MAME_DAT="$CUR/ARCADE 189.dat"
 NIBCONV="$CUR/nibconv.exe"
 RETROARCH_PLAYLIST="$HOME/.config/retroarch/playlists"
 DIR_ICONS="$HOME/.config/retroarch/assets/xmb/neoactive/png/"
