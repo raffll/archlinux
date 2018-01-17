@@ -32,6 +32,7 @@ tar -cjvf $DIR/$DATE/$USER-backup-$DATE.tar.bz2 --exclude='.local/share/Steam' \
 												--exclude='.mozilla' \
 												--exclude='.IdeaIC14' \
 												--exclude='.log' \
+												--exclude='.steam' \
 												--exclude='.thumbnails' \
 												--exclude='.config/retroarch/cores' \
 												--exclude='.config/retroarch/roms' \
