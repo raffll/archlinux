@@ -1,7 +1,7 @@
 #!/bin/sh
 
 DATE=$(date +"%d-%m-%Y")
-DIR="$HOME/Backup"
+DIR="$HOME/Dokumenty/Backup"
 
 if [ ! -e "$DIR" ]; then
 	mkdir "$DIR"
